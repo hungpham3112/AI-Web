@@ -45,6 +45,8 @@ DEBUG = env("DEBUG")
 
 ALLOWED_HOSTS = ["*"]
 
+WSGI_APPLICATION = 'vercel_app.wsgi.app'
+
 # Application definition
 
 INSTALLED_APPS = [
